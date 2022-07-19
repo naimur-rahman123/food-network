@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header h1 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  background: linear-gradient(45deg, orange, orangered);
+}
+
+h1 {
+  font-size: 40px;
+  color: dimgray;
+  margin: 0;
+}
+
+p {
+  color: dimgray;
+}
+
+.orange-text {
+  color: orangered;
+}
+
+a {
+  text-decoration: none;
+  background-color: orangered;
+  color: white;
+  font-weight: 700;
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+
+.flexible-container {
+  display: flex;
+}
+
+.half-width {
+  width: 50%;
+  padding: 40px;
+}
+
+.half-width img {
+  width: 80%;
+}
+
+.first-section {
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.about-section {
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.center {
+  text-align: center;
+}
+
+.recepies {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.one-third {
+  width: 25%;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.solo-food {
+  box-shadow: 5px 7px 40px grey;
+}
+
+.one-third div img {
+  width: 100%;
+}
+
+.foods {
+  justify-content: space-around;
+}
+
+.followers {
+  margin: 100px;
+}
+
+footer {
+  height: 200px;
+  background-color: #112;
+}
+
+footer h2 {
+  padding-top: 30px;
+  color: dimgray;
+}
+
+footer p {
+  color: white;
+}
